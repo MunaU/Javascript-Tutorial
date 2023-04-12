@@ -1,39 +1,51 @@
-function sayHello(){
-    alert("Hello World");
-}
-//Call function on click of the button
-document.getElementById("myBtn").onclick = sayHello;
-
-function sayHwllo(){
-    alert ("Hello World")
-}
-
-  //Call function on click of the button
-  document.getElementById("myBtn"),onclick = sayHello;
-
+function sayhello () {
   var x = 5;
   var y = 10;
   var sum = x + y;
-  document.write(sum);
-  var myVar = "Hello World"
-  //This is my first JavaScript program
-  document.write("Hello World")
-  var name = "pita"
-  var age = 21;
-  var isMarreied = false;
-  // Declaring Variable
-  var userName;
+  alert(sum);
+}
 
-  // Declaring Variable
-  var userName;
+// Call function on click of the button
+document.getElementById("myBtn").onclick = sayHello;
+
+// Call function on click of the button
+document.getElementById("myBtn").onclick = sayHello;
+
+var x = 5;
+var y = 10;
+var sum = x + y;
+// This is my JavaScript program
+var name = "pita";
+var age = 21;
+var isMarried = false;
+// Declaring Variable
+var userName;
 
 // Assigning value
-userName = "Clark Kent";
-//Declaring multiple Variables
+userName = "Clark Kent"
+// Declaring multipe variables
 var name = "Peter Parker", age = 21, isMarried = false;
+{
+var text = "Find colors"
+  var colors = ["Red", "Yellow", "Green", "Orange"];
+document.write(Red);
+}
+ 
+ // Call function on click of the button
+ document.getElementById("Find colors").onclick = colors;
 
-/* Longer declarations can be written to span
-multiple lines to improve the readability */
-var name = "Peter Parker",
-age = 21
+ // Call function on clikc of the button
+ document.getElementById("Find colors").onclick = colors;
+
+ function colors2(){
+  var text = "Second color"
+  var colors = "[Yellow]";
+  document.write(Yellow);
+ }
+  //Call function on click of the button
+  document.getElementById("Second color").onclick = colors;
+
+  // Call function on click of the button
+  document.getElementById("Second color").onclick = colors;
+
 
