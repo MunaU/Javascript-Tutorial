@@ -5,3 +5,4 @@ function myInfo()
     var name = a + b;
     document.write(name)
 }
+
